@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="template/plantilla::head">
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container" style="max-width: 400px; margin-top: 50px">
+            <div class="mb-3">
+                <input type="text" class="form-control m-25" placeholder="Usuario" name="usuario">
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control" name="password" placeholder="Password">        
+            </div>
+            <a href="menu" class="btn btn-primary">Ingresar</a>
+        </div>
+    </body>
+</html>
